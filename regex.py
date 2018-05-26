@@ -130,3 +130,10 @@ print (ages)
 
 if "Heather" in ages.keys():
 	print ("TRUE!")
+
+thing = "246gb-you"
+
+if "gb" in thing:
+	print("FOUND")
+	loc = thing.find("gb")
+	print(loc)
