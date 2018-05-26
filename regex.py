@@ -127,3 +127,6 @@ print(ages.items())
 #Modify a value
 ages["Bryan"] = 99 #This is how you can modify the values in a tuple. this is because it is edited in memory
 print (ages)
+
+if "Heather" in ages.keys():
+	print ("TRUE!")
